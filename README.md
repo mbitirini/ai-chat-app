@@ -2,10 +2,6 @@
 
 Welcome to My OpenAI-Chat App! This React application allows you to chat and manage your chat history, with the help of AI ✨🌟✨
 
-Deployment link: https://preeminent-kleicha-62e819.netlify.app/
-
-(important note: no more than 3 req/min can be done due to API restrictions on free version)
-
 ## Table of Contents
 
 - [Installation](#installation)
