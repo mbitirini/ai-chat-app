@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  min-height: 60px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1b1b1d;
+  width: 100%;
+  max-width: 750px;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-right: 12px;
+}
+
+.content {
+  font-size: 14px;
+  max-width: calc(
+    100% - 50px
+  ); /* Adjust the max-width to leave space for the avatar */
+  word-wrap: break-word;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 70%;
+  }
+}
+
+.emoji {
+  font-size: 25px;
+  margin-right: 10px;
+}

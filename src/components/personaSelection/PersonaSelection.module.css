@@ -1,0 +1,64 @@
+.personaSelectionContainer {
+  text-align: center;
+  position: fixed;
+  top: 30%;
+}
+
+.personaTitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.personaOptions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.personaBox {
+  cursor: pointer;
+  padding: 15px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  font-size: 16px;
+  width: 150px;
+}
+
+.personaBox:hover {
+  border-color: #ef3167;
+}
+
+.emoji {
+  margin-bottom: 3px;
+}
+
+@media (max-width: 1000px) {
+  .personaSelectionContainer {
+    top: 0;
+    margin-top: 50px;
+  }
+  .personaOptions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personaBox {
+    margin: 10px 0;
+    width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .personaTitle {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .personaSelectionContainer {
+    margin-top: 85px;
+  }
+  .personaBox {
+    width: 130px;
+  }
+}

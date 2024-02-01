@@ -1,0 +1,22 @@
+.wrapper {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: #ff5f38;
+  border-radius: 10px;
+  width: 80%;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wrapper:hover {
+  cursor: pointer;
+  background-color: #ff896b;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}

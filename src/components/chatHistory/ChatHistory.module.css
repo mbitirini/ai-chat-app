@@ -1,0 +1,47 @@
+.historyWrapper {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+
+  &:hover,
+  &.selectedChat {
+    background-color: #323236;
+    cursor: pointer;
+
+    .binIcon:hover {
+      color: red;
+    }
+  }
+}
+
+.historyItem p {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 2px;
+}
+
+.binIcon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.trashIcon {
+  width: 15px;
+  height: 15px;
+  margin-left: 4px;
+}
+
+.binIcon:hover {
+  transform: scale(1.2);
+}
